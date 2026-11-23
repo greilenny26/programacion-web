@@ -1,0 +1,211 @@
+{
+  "info": {
+    "_postman_id": "96ec6ba9-7e58-4ee9-a260-a23b01bd2db2",
+    "name": "api-productos",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "58387582",
+    "_collection_link": "https://go.postman.co/collection/58387582-96ec6ba9-7e58-4ee9-a260-a23b01bd2db2?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "http://localhost:3000/productos",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"nombre\":\"Audifonos Bluetooth\",\"descripcion\":\"Audifonos inalambricos con microfono\",\"precio\":2200}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/productos",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "productos"
+          ]
+        },
+        "description": "Generated from cURL: curl --request POST http://localhost:3000/productos --header 'Content-Type: application/json' --data '{\"nombre\":\"Audifonos Bluetooth\",\"descripcion\":\"Audifonos inalambricos con microfono\",\"precio\":2200}'"
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:3000/productos",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"nombre\":\"Audifonos Bluetooth\",\"descripcion\":\"Audifonos inalambricos con microfono\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/productos",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "productos"
+          ]
+        },
+        "description": "Generated from cURL: curl --request POST http://localhost:3000/productos --header 'Content-Type: application/json' --data '{\"nombre\":\"Audifonos Bluetooth\",\"descripcion\":\"Audifonos inalambricos con microfono\"}'"
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:3000/productos/2",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"nombre\":\"Mouse inalambrico ergonomico\",\"descripcion\":\"Mouse optico inalambrico con 6 botones\",\"precio\":850}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/productos/2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "productos",
+            "2"
+          ]
+        },
+        "description": "Generated from cURL: curl --request PUT http://localhost:3000/productos/2 --header 'Content-Type: application/json' --data '{\"nombre\":\"Mouse inalambrico ergonomico\",\"descripcion\":\"Mouse optico inalambrico con 6 botones\",\"precio\":850}'"
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:3000/productos/999",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"nombre\":\"Mouse inalambrico ergonomico\",\"descripcion\":\"Mouse optico inalambrico con 6 botones\",\"precio\":850}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/productos/999",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "productos",
+            "999"
+          ]
+        },
+        "description": "Generated from cURL: curl --request PUT http://localhost:3000/productos/999 --header 'Content-Type: application/json' --data '{\"nombre\":\"Mouse inalambrico ergonomico\",\"descripcion\":\"Mouse optico inalambrico con 6 botones\",\"precio\":850}'"
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:3000/productos/3",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/productos/3",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "productos",
+            "3"
+          ]
+        },
+        "description": "Generated from cURL: curl --request DELETE http://localhost:3000/productos/3"
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:3000/productos/3",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/productos/3",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "productos",
+            "3"
+          ]
+        },
+        "description": "Generated from cURL: curl --request DELETE http://localhost:3000/productos/3"
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:3000/productos",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/productos",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "productos"
+          ]
+        },
+        "description": "Generated from cURL: curl --request GET http://localhost:3000/productos"
+      },
+      "response": []
+    }
+  ]
+}
